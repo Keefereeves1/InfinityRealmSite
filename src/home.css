@@ -46,7 +46,7 @@ html {
   margin-top: 20px;
   animation: fadeInUp 2s;
   color: #ff00ff;
-  background-color: rgba(255, 255, 255, 0.722);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 10px;
   border-radius: 10px;
   max-width: 90%;
@@ -58,7 +58,7 @@ html {
   margin-top: 10px;
   padding: 15px 30px;
   font-size: 1em;
-  background-color: #ff00ff;
+  background-color: rgb(140, 70, 231);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -66,17 +66,20 @@ html {
   display: block;
   margin: auto;
   text-decoration: none;
+  border-radius: 10px;
    
 }
 
 .button-link {
   text-decoration: none; /* Ensure there's no underline */
-  color: white; /* Inherit the parent color, ensuring it's not blue */
+  color: white; 
 }
-
+.button-link p {
+  color:white;
+}
 .hero-button:hover,
 .home-back-button:hover {
-  background-color: #ff69b4;
+  background-color: #aa1e64;
 }
 
 .h2 {

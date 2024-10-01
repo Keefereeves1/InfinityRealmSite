@@ -87,7 +87,9 @@
     margin-bottom: 0; /* Remove any bottom margin */
     padding-bottom: 0; /* Remove any bottom padding */
   }
-  
+.updates-header {
+    animation: fadeIn 1s forwards;
+}
 /* Animations */
 @keyframes fadeInUp {
   to {

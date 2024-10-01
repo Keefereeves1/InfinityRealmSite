@@ -38,9 +38,7 @@ const Staff: React.FC = () => {
         </div>
       </div>
 
-      <li className="infinity-realm2">
-           Infinity <FaInfinity size={20} /> Realm
-          </li>
+ 
 
       {/* Template for New Staff Members */}
       {/*

@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'; // Import useEffect
-import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; // Import useLocation
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Games from './games';
@@ -14,19 +14,23 @@ ReactGA.initialize('G-TC4DHMN5BR');
 
 // Custom hook to report page views
 function usePageTracking() {
-  const location = useLocation();
+  const location = useLocation(); // Now inside Router context
 
   useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: location.pathname });
   }, [location]);
 }
 
-const App: React.FC = () => {
-  // Use page tracking hook
+// Create a component that uses the tracking hook
+const PageTracker: React.FC = () => {
   usePageTracking();
+  return null; // This component doesn't render anything
+};
 
+const App: React.FC = () => {
   return (
-    <Router>
+    <Router> {/* Router wraps everything that needs access to routing */}
+      <PageTracker /> {/* Tracking is now inside Router */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -41,3 +45,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+

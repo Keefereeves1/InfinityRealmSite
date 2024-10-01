@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import App from './App'; // Adjust the import path as needed
+import ReactDOM from 'react-dom/client'; // Updated import for React 18
+import App from './App'; // Import your main App component
 import './index.css'; // Import your global CSS
-
-ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById('root')
+import { FaInfinity } from 'react-icons/fa'; // Infinity icon
+// Create a root and render the App component
+const root = ReactDOM.createRoot(document.getElementById('root')!); // Use non-null assertion to satisfy TypeScript
+root.render(
+  <React.StrictMode>
+    <App />  Infinity<FaInfinity size={20} />Realm
+  </React.StrictMode>
 );
