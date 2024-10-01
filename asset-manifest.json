@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/InfinityRealmSite/static/css/main.e7b173ac.css",
+    "main.js": "/InfinityRealmSite/static/js/main.83f5ee47.js",
+    "static/media/TheravadaBackground.png": "/InfinityRealmSite/static/media/TheravadaBackground.603c7387b092ad6302e3.png",
+    "static/media/THERAVADA.png": "/InfinityRealmSite/static/media/THERAVADA.db156ceb396f59dfbaa8.png",
+    "static/media/keefesprofilepic.jpg": "/InfinityRealmSite/static/media/keefesprofilepic.b7a48fa88272039e8101.jpg",
+    "static/media/THERAVADAGAME.png": "/InfinityRealmSite/static/media/THERAVADAGAME.5090a2b1c0460bc2518e.png",
+    "static/media/logo.png": "/InfinityRealmSite/static/media/logo.f5853af37c6d2489d773.png",
+    "static/media/DreamOne.png": "/InfinityRealmSite/static/media/DreamOne.3911219fa680a0c41b73.png",
+    "static/media/Dream2.png": "/InfinityRealmSite/static/media/Dream2.8aa58082bbc135b69506.png",
+    "static/media/Dream3.jpeg": "/InfinityRealmSite/static/media/Dream3.3515eaa53629f5d55929.jpeg",
+    "static/media/discord.png": "/InfinityRealmSite/static/media/discord.b5bd52432116402ed0c7.png",
+    "static/media/Steam_icon_logo.svg.png": "/InfinityRealmSite/static/media/Steam_icon_logo.svg.c53a6e4e9245b4f46501.png",
+    "static/media/slick.svg": "/InfinityRealmSite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/InfinityRealmSite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/InfinityRealmSite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/InfinityRealmSite/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/InfinityRealmSite/index.html",
+    "main.e7b173ac.css.map": "/InfinityRealmSite/static/css/main.e7b173ac.css.map",
+    "main.83f5ee47.js.map": "/InfinityRealmSite/static/js/main.83f5ee47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7b173ac.css",
+    "static/js/main.83f5ee47.js"
+  ]
+}
